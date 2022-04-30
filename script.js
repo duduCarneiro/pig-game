@@ -74,3 +74,5 @@ function winner(player) {
   console.log(player); 
   player.classList.add('player--winner');
 };
+
+init();
