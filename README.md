@@ -46,5 +46,5 @@ Every time the players switch turns, their current scores are added to the total
 
 ## ⚠️ Credits
 
-While the JavaScript code and the logic behind the application was developed by me, following the content of the classes, the HTML and CSS was provided by Jonas Schmedtman.
+While the JavaScript code and the logic behind the application was developed by me, following the content of the classes, the HTML and CSS were provided by Jonas Schmedtman.
 
