@@ -22,7 +22,7 @@ This project is part of the content of <a href="https://www.udemy.com/course/the
 
 ## 🚀 Get started
 
-Website: visit [guess-my-number-app.herokuapp.com/](https://guess-my-number-app.herokuapp.com/) to play.
+Website: visit [pig-game-game.herokuapp.com](https://pig-game-game.herokuapp.com/) to play.
 
 ## ✍️ Usage and examples
 
