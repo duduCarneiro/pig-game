@@ -10,7 +10,7 @@
 # 👨‍💻 About
 
 This project is part of the content of <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">The Complete JavaScript Course by Jonas Schmedtman</a> available on Udemy 🔔! 
-<br> It has a retro design inspired by the old 80s games. The goal of this game is to simply guess a secret number which is between one and 20. 
+<br> The fun of this game is to guess until when you can trust your luck rolling dice.
 
 ## 📚 Contents
 
@@ -26,17 +26,9 @@ Website: visit [guess-my-number-app.herokuapp.com/](https://guess-my-number-app.
 
 ## ✍️ Usage and examples
 
-In the input box we can type a number. And then on the right side, after click on the check buttom, we get a message. It can say our guess was too low or to high. Also we can see that we started with a Score of 5. Each time we failed, it decreases by 1.
-<br> Let's say the secret number is 19, we don´t know it yet. So, we try 5. It's too low! and our score decreased. Let's try another one. 20! Now it's too high and we get a different message.
-Finally, we guess 19. So we get a correct number message.
+The idea is that we roll a dice and the active player gets the result value of the dice added to their current score. After that, they can hold the score letting the other player take their turn or try another roll of dice to get the result added to their current score. The thing here is that whenever we roll a one, we lose all our current score and it's then the next player's turn. And so that's why sometimes we need to hold our points.
 
-<p align="center">
-  <img src="./img/2 screen.jpg" alt="Size Limit CLI" width="738">
-</p>
-
-The screen turns green and also we now have the Highscore reached during this turn.
-
-A Highscore is another feature of this small application. Then if you want to play again, we can simply click the Again! button and it all resets everything except for the Highscore. The Highscore is kept and so if I'm quicker in this round, my Highscore will then become better.
+Every time the players switch turns, their current scores are added to the total score.
 
 ## ⚙️ Built with
 
