@@ -48,3 +48,29 @@ rollDice.addEventListener('click', function () {
 
 });
 
+hold.addEventListener('click', function () {
+  if (player0.classList.contains('player--active')) {
+    valueScore0 += valueCurrent;
+    score0.textContent = valueScore0;
+    valueScore0 >= 100 ? winner(player0) : switchPlayer(player1, player0);
+  } else {
+    valueScore1 += valueCurrent;
+    score1.textContent = valueScore1;
+    valueScore1 >= 100 ? winner(player1) : switchPlayer(player0, player1);
+  };
+});
+
+function switchPlayer() {
+  player0.classList.toggle('player--active');
+  player1.classList.toggle('player--active');
+  valueCurrent = 0;
+  current0.textContent = 0;
+  current1.textContent = 0;
+};
+
+function winner(player) {
+  rollDice.disabled = true;
+  hold.disabled = true;
+  console.log(player); 
+  player.classList.add('player--winner');
+};
